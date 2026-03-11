@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "teleprompter",
+  "version": "${version}",
+  "name": "Teleprompter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/teleprompter/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.jagle.teleprompter.client.TeleprompterClient"
+    ],
+    "main": [
+      "org.jagle.teleprompter.Teleprompter"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
