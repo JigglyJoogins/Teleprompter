@@ -1,20 +1,42 @@
 {
   "text.autoconfig.teleprompter.title": "Teleprompter Configuration",
   "text.autoconfig.teleprompter.option.isVisible": "Teleprompter Visible",
-  "text.autoconfig.teleprompter.option.xPosition": "X Position",
-  "text.autoconfig.teleprompter.option.xPosition.@Tooltip": "Horizontal position of the text on screen.",
-  "text.autoconfig.teleprompter.option.yPosition": "Y Position",
-  "text.autoconfig.teleprompter.option.yPosition.@Tooltip": "Vertical position of the text on screen.",
+  "text.autoconfig.teleprompter.option.anchor": "Screen Anchor",
+  "text.autoconfig.teleprompter.option.anchor.@Tooltip": "Where the teleprompter should snap to on the screen.",
+  "text.autoconfig.teleprompter.option.xOffset": "X Offset",
+  "text.autoconfig.teleprompter.option.xOffset.@Tooltip": "Fine-tune the horizontal position from the anchor.",
+  "text.autoconfig.teleprompter.option.yOffset": "Y Offset",
+  "text.autoconfig.teleprompter.option.yOffset.@Tooltip": "Fine-tune the vertical position from the anchor.",
   "text.autoconfig.teleprompter.option.textOpacity": "Text Opacity (0-255)",
   "text.autoconfig.teleprompter.option.textOpacity.@Tooltip": "How solid the text is (255 is fully solid).",
   "text.autoconfig.teleprompter.option.backgroundOpacity": "Background Opacity (0-255)",
   "text.autoconfig.teleprompter.option.backgroundOpacity.@Tooltip": "How dark the background box behind the text is.",
-  "text.autoconfig.teleprompter.option.scriptLines": "Script Lines",
-  "text.autoconfig.teleprompter.option.scriptLines.@Tooltip": "Add or edit your script lines here.",
   "text.autoconfig.teleprompter.option.linesToShow": "Lines to Show",
   "text.autoconfig.teleprompter.option.linesToShow.@Tooltip": "How many lines to display on screen at once.",
+
+  "text.autoconfig.teleprompter.enum.Anchor.TOP_LEFT": "Top Left",
+  "text.autoconfig.teleprompter.enum.Anchor.TOP_CENTER": "Top Center",
+  "text.autoconfig.teleprompter.enum.Anchor.TOP_RIGHT": "Top Right",
+  "text.autoconfig.teleprompter.enum.Anchor.CENTER_LEFT": "Center Left",
+  "text.autoconfig.teleprompter.enum.Anchor.CENTER": "Center",
+  "text.autoconfig.teleprompter.enum.Anchor.CENTER_RIGHT": "Center Right",
+  "text.autoconfig.teleprompter.enum.Anchor.BOTTOM_LEFT": "Bottom Left",
+  "text.autoconfig.teleprompter.enum.Anchor.BOTTOM_CENTER": "Bottom Center",
+  "text.autoconfig.teleprompter.enum.Anchor.BOTTOM_RIGHT": "Bottom Right",
+
+  "text.cloth-config.cancel_button": "Close Menu",
+  "text.cloth-config.save_and_done": "Save & Close",
+
+  "text.autoconfig.teleprompter.title": "Teleprompter Configuration",
+  "text.autoconfig.teleprompter.enum.TextAlignment.LEFT": "Left",
+  "text.autoconfig.teleprompter.enum.TextAlignment.CENTER": "Center",
+  "text.autoconfig.teleprompter.enum.TextAlignment.RIGHT": "Right",
+
   "category.teleprompter.main": "Teleprompter",
   "key.teleprompter.toggle": "Toggle Visibility",
-  "key.teleprompter.next": "Next Lines",
-  "key.teleprompter.prev": "Previous Lines"
+  "key.teleprompter.next": "Next Page",
+  "key.teleprompter.prev": "Previous Page",
+  "key.teleprompter.reload": "Reload Script from File",
+  "key.teleprompter.settings": "Open Settings Menu"
+
 }

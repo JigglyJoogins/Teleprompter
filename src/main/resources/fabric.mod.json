@@ -3,23 +3,28 @@
   "id": "teleprompter",
   "version": "${version}",
   "name": "Teleprompter",
-  "description": "",
-  "authors": [],
+  "description": "An on-screen teleprompter for script recording.",
+  "authors": [
+    "jagle"
+  ],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "All Rights Reserved",
   "icon": "assets/teleprompter/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "org.jagle.teleprompter.client.TeleprompterClient"
-    ],
-    "main": [
       "org.jagle.teleprompter.Teleprompter"
+    ],
+    "modmenu": [
+      "org.jagle.teleprompter.integration.ModMenuIntegration"
     ]
   },
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "cloth-config": "*",
+    "modmenu": "*"
   }
 }
