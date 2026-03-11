@@ -37,6 +37,11 @@
   "key.teleprompter.next": "Next Page",
   "key.teleprompter.prev": "Previous Page",
   "key.teleprompter.reload": "Reload Script from File",
-  "key.teleprompter.settings": "Open Settings Menu"
+  "key.teleprompter.settings": "Open Settings Menu",
+  "key.teleprompter.cycle": "Cycle Scripts List",
+  "key.teleprompter.autoscroll": "Toggle Auto-Scroll",
+  "key.teleprompter.playpause": "Play/Pause Auto-Scroll",
+  "key.teleprompter.skipline": "Skip to Next Line",
+  "key.teleprompter.prevline": "Skip to Previous Line"
 
 }

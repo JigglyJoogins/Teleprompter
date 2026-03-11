@@ -8,29 +8,31 @@ public class TeleprompterConfig implements ConfigData {
 
     public boolean isVisible = false;
     public String activeScript = "default_script";
-
-    // Formatting & Colors
     public String roleName = "";
+
+    // Auto-Scroll
+    public int autoScrollWpm = 150;
+    public int autoScrollHighlightOpacity = 80;
+
+    // Colors & Opacities
     public int textColor = 0xFFFFFF;
     public int dialogueColor = 0xAAAAAA;
     public int myLineColor = 0x55FF55;
-
     public int textOpacity = 255;
     public int shadowOpacity = 150;
     public int backgroundOpacity = 100;
 
-    // Positioning
+    // Formatting & Layout
     public Anchor anchor = Anchor.TOP_LEFT;
     public int xOffset = 0;
     public int yOffset = 0;
-    public float textScale = 2.0f;
-    public int boxWidth = 800;
-    public int maxLinesPerPage = 12; // Increased to 12 as a much better default!
-
-    // Toggles
+    public int boxWidth = 250;
+    public int boxPadding = 10;
+    public float textScale = 1.0f;
+    public int maxLinesPerPage = 12;
     public boolean useMarkdown = true;
     public boolean showPageIndicator = true;
-    public TextAlignment textAlignment = TextAlignment.LEFT;
+    public TextAlignment textAlignment = TextAlignment.SMART;
 
     public enum Anchor {
         TOP_LEFT, TOP_CENTER, TOP_RIGHT,
@@ -39,6 +41,6 @@ public class TeleprompterConfig implements ConfigData {
     }
 
     public enum TextAlignment {
-        LEFT, CENTER, RIGHT
+        LEFT, CENTER, RIGHT, SMART
     }
 }
